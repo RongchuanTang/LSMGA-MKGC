@@ -12,9 +12,9 @@ The repository for ACL 2023 paper: Multilingual Knowledge Graph Completion with 
 ## How to run
 For DBP5L dataset
 ```
-python --run_model.py --dataset dbp5l
+python --run_model.py --dataset dbp5l --round 80
 ```
 For EPKG dataset
 ```
-python --run_model.py --dataset depkg
+python --run_model.py --dataset depkg --round 50
 ```
